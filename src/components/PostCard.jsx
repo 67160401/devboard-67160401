@@ -13,6 +13,14 @@ function PostCard({ title, body }) {
       <p style={{ margin: 0, color: "#4a5568", lineHeight: 1.6 }}>{body}</p>
     </div>
   );
+  function PostCard(props) {
+  return (
+    <div>
+      <h2>{props.title}</h2>
+      <p>{props.body}</p>
+    </div>
+  )
+}
 }
 
 export default PostCard;
