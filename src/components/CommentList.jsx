@@ -11,7 +11,7 @@ function CommentList({ postId }) {
       try {
         setLoading(true);
         const res = await fetch(
-          `https://jsonplaceholder.typicode.com/posts/${postId}/comments`,
+          `https://jsonplaceholder.typicode.com/poss/${postId}/comments`,
         );
         if (!res.ok) throw new Error("ดึงความคิดเห็นไม่สำเร็จ");
         const data = await res.json();
