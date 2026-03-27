@@ -1,13 +1,8 @@
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-}
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2rem;
   text-align: center;
 }
